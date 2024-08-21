@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryTitleTblVwCell" rowHeight="38" id="KGk-i7-Jjw" customClass="CategoryTitleTblVwCell" customModule="MovieDatabaseApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="38"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Apr-JF-Xzc">
+                        <rect key="frame" x="2" y="2" width="341" height="34"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LT1-gQ-26M">
+                                <rect key="frame" x="301" y="8.9999999999999982" width="20" height="16.333333333333329"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="5up-n3-1PC"/>
+                                    <constraint firstAttribute="height" constant="20" id="ONm-sF-XGW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgm-oY-9yG">
+                                <rect key="frame" x="18" y="10" width="273" height="14"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soM-CK-ypV">
+                                <rect key="frame" x="0.0" y="0.0" width="341" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="tappedOnCellBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gqO-kj-nrj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LT1-gQ-26M" secondAttribute="trailing" constant="20" id="6fw-er-ye3"/>
+                            <constraint firstItem="LT1-gQ-26M" firstAttribute="centerY" secondItem="Apr-JF-Xzc" secondAttribute="centerY" id="Fje-TC-W3b"/>
+                            <constraint firstItem="Jgm-oY-9yG" firstAttribute="leading" secondItem="Apr-JF-Xzc" secondAttribute="leading" constant="18" id="OKt-e0-hKS"/>
+                            <constraint firstAttribute="bottom" secondItem="soM-CK-ypV" secondAttribute="bottom" id="SeZ-lo-NDs"/>
+                            <constraint firstItem="soM-CK-ypV" firstAttribute="leading" secondItem="Apr-JF-Xzc" secondAttribute="leading" id="bLN-MS-kYe"/>
+                            <constraint firstAttribute="bottom" secondItem="Jgm-oY-9yG" secondAttribute="bottom" constant="10" id="fP5-zO-Kyv"/>
+                            <constraint firstItem="LT1-gQ-26M" firstAttribute="leading" secondItem="Jgm-oY-9yG" secondAttribute="trailing" constant="10" id="ggf-d2-aPc"/>
+                            <constraint firstAttribute="trailing" secondItem="soM-CK-ypV" secondAttribute="trailing" id="hIH-U6-btq"/>
+                            <constraint firstItem="Jgm-oY-9yG" firstAttribute="top" secondItem="Apr-JF-Xzc" secondAttribute="top" constant="10" id="nKx-RU-2Bg"/>
+                            <constraint firstItem="soM-CK-ypV" firstAttribute="top" secondItem="Apr-JF-Xzc" secondAttribute="top" id="xjk-sZ-TdQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Apr-JF-Xzc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="OPN-CT-QIi"/>
+                    <constraint firstItem="Apr-JF-Xzc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="QFP-Il-71j"/>
+                    <constraint firstAttribute="trailing" secondItem="Apr-JF-Xzc" secondAttribute="trailing" constant="2" id="heF-vx-GbG"/>
+                    <constraint firstAttribute="bottom" secondItem="Apr-JF-Xzc" secondAttribute="bottom" constant="2" id="kxo-xB-JnY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="expandArrowIcon" destination="LT1-gQ-26M" id="bth-hz-M3D"/>
+                <outlet property="tabBtn" destination="soM-CK-ypV" id="Ool-Mr-nPY"/>
+                <outlet property="titleLabel" destination="Jgm-oY-9yG" id="1Fq-qC-QZJ"/>
+            </connections>
+            <point key="canvasLocation" x="158.01526717557252" y="17.605633802816904"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

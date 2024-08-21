@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "872D12D1-4717-4C15-8FAD-776EE8BEA490"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "A18717CC-3767-4D6C-9F78-BB7238DF04DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.RuntimeIssueBreakpoint">
+         <BreakpointContent
+            uuid = "5E198211-182E-405A-971E-D6F1CD04CDD6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            type = "65535">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC4BDD91-F27F-4BF4-A92B-F5F686D8AEE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieDatabaseApp/DashBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3F8CAAE-D26F-4293-87D5-09FF273107E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieDatabaseApp/DashBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5EA8A0F-BA83-4B60-870D-F184D6410352"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieDatabaseApp/DashBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "reloadTableViewSections(selectedSection:selectedOption:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5EA8A0F-BA83-4B60-870D-F184D6410352 - 36fb853558920d11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieDatabaseApp.DashBoardViewController.reloadTableViewSections(selectedSection: Swift.Int, selectedOption: MovieDatabaseApp.CategoryTypes) -&gt; ()"
+                  moduleName = "MovieDatabaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kishoreb/Desktop/Tasks2024/MovieDatabaseApp/MovieDatabaseApp/DashBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "A5EA8A0F-BA83-4B60-870D-F184D6410352 - 36fb853558920d11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieDatabaseApp.DashBoardViewController.reloadTableViewSections(selectedSection: Swift.Int, selectedOption: MovieDatabaseApp.CategoryTypes) -&gt; ()"
+                  moduleName = "MovieDatabaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kishoreb/Desktop/Tasks2024/MovieDatabaseApp/MovieDatabaseApp/DashBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "A5EA8A0F-BA83-4B60-870D-F184D6410352 - 36fb853558920808"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieDatabaseApp.DashBoardViewController.reloadTableViewSections(selectedSection: Swift.Int, selectedOption: MovieDatabaseApp.CategoryTypes) -&gt; ()"
+                  moduleName = "MovieDatabaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kishoreb/Desktop/Tasks2024/MovieDatabaseApp/MovieDatabaseApp/DashBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "A5EA8A0F-BA83-4B60-870D-F184D6410352 - 36fb853558920808"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieDatabaseApp.DashBoardViewController.reloadTableViewSections(selectedSection: Swift.Int, selectedOption: MovieDatabaseApp.CategoryTypes) -&gt; ()"
+                  moduleName = "MovieDatabaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kishoreb/Desktop/Tasks2024/MovieDatabaseApp/MovieDatabaseApp/DashBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC9B6751-0749-4BFE-8F29-F44ED4CB461F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieDatabaseApp/DashBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CABD6206-D40B-40FF-8C07-6B9924DF8D1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieDatabaseApp/DashBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
